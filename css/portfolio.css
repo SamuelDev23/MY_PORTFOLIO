@@ -1,0 +1,142 @@
+
+/* PORTFOLIO */
+#link_proyects{
+    padding: 70px 30px;
+    height: 85vh;
+}
+
+.subtitle{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: right;
+    margin-right: 570px;
+    color: #00b4bd;
+    text-shadow: 0 0 3px #00b4bd;
+    border-bottom: 3px solid #000;
+}
+
+.port-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.port-item{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1f1f1f ;
+}
+
+
+.port-img img{
+    position: relative;
+    width: 100%;  
+    border-radius: 10px;
+}
+
+.port-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #00b4bd;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: scale(0);
+    transition: 0.5s;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.port-item:hover .port-info{
+    transform: scale(1);
+    visibility: visible;
+    box-shadow: 0 0 10px #00b4bd;
+}
+
+.port-info h4{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.port-info p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.port-link{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.port-info a{
+    text-decoration: none;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 10px;
+    width: 55px;
+    height: 45px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.port-info a:hover{
+    background-color: #ffffff;
+    color: #00b4bd;
+    border-radius: 14px;
+}
+
+
+/* MEDIA PORTFOLIO */
+@media only screen and (max-width: 1050px){
+
+    .subtitle{
+        padding-top: 40px;
+        margin-top: 0;
+        font-size: 50px;
+        text-align: center;
+        margin: 0 15px;
+        color: #00b4bd;
+        text-shadow: 0 0 3px #00b4bd;
+        border-bottom: 3px solid #000;
+    }
+
+    .portfolio{
+        padding: 0;
+    }
+    
+    .port-row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+    .port-info p{
+        color: #fff;
+        font-size: 17px;
+    }
+
+
+    .port-info a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        padding-top: 5px;
+        width: 50px;
+        height: 40px;
+        color: #ffffff;
+        transition: 0.2s;
+    }
+}
