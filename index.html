@@ -1,166 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/skills.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <script src="https://kit.fontawesome.com/580d8a600c.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/580d8a600c.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    
+
     <title>Samuel Scott - Developer Front-end</title>
-</head>
+  </head>
 
-
-<body>
-<header>
-    <div class="profile">
-        <img src="img/profile/icono_profile.png" alt="perfil" data-aos="fade-down">
+  <body>
+    <header>
+      <div class="profile">
+        <img
+          src="img/profile/icono_profile.png"
+          alt="perfil"
+          data-aos="fade-down"
+        />
         <h1 data-aos="fade-down">Samuel Scott</h1>
 
         <div class="social-icons" data-aos="fade-left">
-            <a href="https://www.linkedin.com/in/samuel-scott01/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/SamuelDev23" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=scottsamuel2005@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/samuel-scott01/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/SamuelDev23" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=scottsamuel2005@gmail.com"
+            target="_blank"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
         </div>
-    </div>
+      </div>
 
-    <nav>
+      <nav>
         <ul data-aos="flip-up">
-            <li><a href="#link_home" class="active"><i class="fa-solid fa-house"></i>Inicio</a></li>
+          <li>
+            <a href="#link_home" class="active"
+              ><i class="fa-solid fa-house"></i>Inicio</a
+            >
+          </li>
 
-            <li><a href="#link_about"><i class="fa-solid fa-address-card"></i>Acerca de mi</a></li>
+          <li>
+            <a href="#link_about"
+              ><i class="fa-solid fa-address-card"></i>Acerca de mi</a
+            >
+          </li>
 
-            <li><a href="#link_skills"><i class="fa-solid fa-code"></i>Habilidades</a></li>
-            
-            <li><a href="#link_proyects"><i class="fa-solid fa-briefcase"></i>Proyectos</a></li>
+          <li>
+            <a href="#link_skills"
+              ><i class="fa-solid fa-code"></i>Habilidades</a
+            >
+          </li>
+
+          <li>
+            <a href="#link_proyects"
+              ><i class="fa-solid fa-briefcase"></i>Proyectos</a
+            >
+          </li>
         </ul>
-    </nav>
+      </nav>
 
-    <footer class="foooter" data-aos="zoom-out">
+      <footer class="foooter" data-aos="zoom-out">
         <p>&copy; Copyrigth 2024</p>
         <p>Developed by <span>Samuel Scott</span></p>
-    </footer>
-</header>
+      </footer>
+    </header>
 
-<!--Mobile nav Toggle-->
-<i class="fa-solid fa-bars" id="btnMenu"></i>
+    <!--Mobile nav Toggle-->
+    <i class="fa-solid fa-bars" id="btnMenu"></i>
 
-
-<main>
-<!-- HOME -->
-    <section id="link_home">
-            <div class="home-row" data-aos="fade-up">
-                <h1>Hola, soy <br>Samuel Scott</h1>
-                <p><span class="auto-input"></span></p>
-            </div>
-        </section>
-
-<!-- ABOUT US -->
-    <section id="link_about">
-        <div class="img-col" data-aos="fade-down">
+    <main>
+      <!-- HOME -->
+      <section id="link_home">
+        <div class="home-row" data-aos="fade-up">
+          <h1>Hola, soy <br />Samuel Scott</h1>
+          <p><span class="auto-input"></span></p>
         </div>
-        
+      </section>
+
+      <!-- ABOUT US -->
+      <section id="link_about">
+        <div class="img-col" data-aos="fade-down"></div>
+
         <div class="about-container" data-aos="fade-up">
-            <h1 class="sub-heading">Acerca de <span>mi</span></h1>
-            
-            <div class="info-col">
-                <p>
-                     Soy un apasionado de la programación con
-                     sólidos conocimientos y habilidades en
-                     desarrollo web, especialmente en el área
-                     de Front-End.
-                </p>
-                <button class="btn-cv"><a href="https://drive.google.com/file/d/1g5q2SiRmPplZmWmv3sCYZ0kIbha05-pA/view?usp=sharing" target="_blank">Ver Cv</a></button>
-            </div>
-        </div>
-    </section>
+          <h1 class="sub-heading">Acerca de <span>mi</span></h1>
 
-<!--SKILLS-->
-    <section id="link_skills">
+          <div class="info-col">
+            <p>
+              Soy un apasionado de la programación con sólidos conocimientos y
+              habilidades en desarrollo web, especialmente en el área de
+              Front-End.
+            </p>
+            <button class="btn-cv">
+              <a
+                href="https://drive.google.com/file/d/1g5q2SiRmPplZmWmv3sCYZ0kIbha05-pA/view?usp=sharing"
+                target="_blank"
+                >Ver Cv</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--SKILLS-->
+      <section id="link_skills">
         <div class="skill_container">
-            <h1 class="title">Habilidades</h1>
-            <div class="skill-item" data-aos="fade-zoom-in"
+          <h1 class="title">Habilidades</h1>
+          <div
+            class="skill-item"
+            data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="100"
-            data-aos-offset="0">
-                <img src="img/icons/icons8-html.svg" title="HTML5">
-                <img src="img/icons/icons8-css3.svg" title="CSS3">
-                <img src="img/icons/icons8-javascript.svg" title="JAVASCRIPT">
-                <img src="img/icons/icons8-python.svg" title="PYTHON">
-            </div>        
-            <h2 class="sub-title">Frameworks y librerias</h2>
-            <div class="skill-item" data-aos="fade-zoom-in"
+            data-aos-offset="0"
+          >
+            <img src="img/icons/icons8-html.svg" title="HTML5" />
+            <img src="img/icons/icons8-css3.svg" title="CSS3" />
+            <img src="img/icons/icons8-javascript.svg" title="JAVASCRIPT" />
+            <img src="img/icons/icons8-python.svg" title="PYTHON" />
+          </div>
+          <h2 class="sub-title">Frameworks y librerias</h2>
+          <div
+            class="skill-item"
+            data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="100"
-            data-aos-offset="0">    
-                <img src="img/icons/angular.svg" title="ANGULAR">
-                <img src="img/icons/icons8-bootstrap.svg" title="BOOTSTRAP">
-                <img src="img/icons/icons8-django.svg" title="DJANGO">
-            </div>
+            data-aos-offset="0"
+          >
+            <img src="img/icons/angular.svg" title="ANGULAR" />
+            <img src="img/icons/icons8-bootstrap.svg" title="BOOTSTRAP" />
+            <img src="img/icons/icons8-django.svg" title="DJANGO" />
+          </div>
 
-            <h2 class="sub-title">Herramientas</h2>
-            <div class="skill-item" data-aos="fade-zoom-in"
+          <h2 class="sub-title">Herramientas</h2>
+          <div
+            class="skill-item"
+            data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="100"
-            data-aos-offset="0">
-                <img src="img/icons/icons8-git.svg" title="GIT">
-                <img src="img/icons/icons8-github.svg" title="GTHUB">
-                <img src="img/icons/icons8-figma.svg" title="FIGMA">
-            </div>
+            data-aos-offset="0"
+          >
+            <img src="img/icons/icons8-git.svg" title="GIT" />
+            <img src="img/icons/icons8-github.svg" title="GTHUB" />
+            <img src="img/icons/icons8-figma.svg" title="FIGMA" />
+          </div>
         </div>
-    </section>
+      </section>
 
-<!-- PORTFOLIO -->
-<h1 class="subtitle">Proyectos</h1>
+      <!-- PORTFOLIO -->
 
-<section id = "link_proyects">
+      <section id="link_proyects">
+        <h1 class="subtitle">Proyectos</h1>
+
         <div class="port-row">
-            <div class="port-item" data-aos="flip-left">
-                <div class="port-img">
-                    <img src="img/projects/app_presupuesto.png" alt="...">
-                </div>
-                <div class="port-info">
-                    <h4>Aplicacion de presupuesto</h4>
-                    <p>Registra tus ingresos y egresos para obtener tu presupuesto total</p>
-                    <div class="port-link">
-                        <a href="https://samueldev23.github.io/app_presupuesto/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a href="https://github.com/SamuelDev23/app_presupuesto" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
+          <div class="port-item" data-aos="flip-left">
+            <div class="port-img">
+              <img src="img/projects/app_presupuesto.png" alt="..." />
             </div>
-
-            <div class="port-item" data-aos="flip-right">
-                <div class="port-img">
-                    <img src="img/projects/app_reloj.png" alt="...">
-                </div>
-                <div class="port-info">
-                    <h4>Reloj Digital</h4>
-                    <p>Reloj de 24hr con fecha incluida</p>
-                    <div class="port-link">
-                        <a href="https://samueldev23.github.io/reloj_digital/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a href="https://github.com/SamuelDev23/reloj_digital" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
+            <div class="port-info">
+              <h4>Aplicacion de presupuesto</h4>
+              <p>
+                Registra tus ingresos y egresos para obtener tu presupuesto
+                total.
+              </p>
+              <div class="port-link">
+                <a
+                  href="https://samueldev23.github.io/app_presupuesto/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+                <a
+                  href="https://github.com/SamuelDev23/app_presupuesto"
+                  target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-</main>
+      </section>
+    </main>
 
+    <script src="app.js"></script>
 
-<script src="app.js"></script>
-
-<!--AOS-->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-</body>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

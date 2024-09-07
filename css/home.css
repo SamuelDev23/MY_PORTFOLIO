@@ -43,8 +43,13 @@ main{
     font-size: 30px;
 }
 
-.home-row p span{
-    border-bottom: 3px solid #00b4bd;
+
+.auto-input{
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #000;
+    background-color: #ffffff;
+    
 }
 
 @media only screen and (max-width: 1050px){

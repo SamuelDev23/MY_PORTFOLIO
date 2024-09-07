@@ -10,6 +10,7 @@ header{
     position: fixed;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 10px 10px #00000070;
 }
 
 .profile{
@@ -21,7 +22,8 @@ header{
     width: 170px;
     height: 180px;
     border-radius: 50%;
-    border: 5px solid #00b4bd;
+    border: 5px solid #1ccad3;
+    box-shadow: 0 0 10px 5px #00b4bd;
 }
 
 .profile h1{
