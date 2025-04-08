@@ -3,6 +3,7 @@
 #link_proyects{
     padding: 30px 30px;
     height: 100vh;
+    width: 90%;
 }
 
 .subtitle{
@@ -26,11 +27,16 @@
 }
 
 
+.port-img{
+    height: 281px;    
+}
+
 .port-img img{
     position: relative;
-    width: 100%;  
+    width: 100%;
     border-radius: 10px;
 }
+
 
 .port-info{
     position: absolute;
@@ -134,4 +140,12 @@
         color: #ffffff;
         transition: 0.2s;
     }
+    
+
+    .port-img{
+    height: 100%;    
+    }
+
+
+
 }
